@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.acti.TestCases.TC02_EnterTimePage">
+        <methods>
+          <include name="postTest"/>
+          <include name="preTest"/>
+          <include name="test_tt_LogOut"/>
+          <include name="testTaskmenuClicking"/>
+        </methods>
+      </class> <!-- com.acti.TestCases.TC02_EnterTimePage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
